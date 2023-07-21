@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
 function MyNavbar() {
   return (
@@ -18,10 +19,10 @@ function MyNavbar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#main">Home</Nav.Link>
-          <Nav.Link href="#services">Menu</Nav.Link>
-          <Nav.Link href="#locations">Locations</Nav.Link>
-          <Nav.Link href="#contact">Contact Us</Nav.Link>
+          <Link to="main" className="nav-link" smooth={true} duration={500}>Home</Link>
+          <Link to="menu" className="nav-link" smooth={true} duration={500}>Menu</Link>
+          <Link to="locations" className="nav-link" smooth={true} duration={500}>Locations</Link>
+          <Link to="contact" className="nav-link" smooth={true} duration={500}>Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

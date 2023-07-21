@@ -1,0 +1,17 @@
+.main-header {
+    height: 100vh; /* Adjust based on your needs */
+    background: url('https://media.discordapp.net/attachments/1076713291210031234/1131964595167309965/professorilan_Painting_of_Frida_Khalo_painting_a_burger_in_the__e0881fab-4b96-4a6f-8b4e-add76c334317.png?width=1778&height=1116') no-repeat top center/cover;
+    position: relative;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Change color based on your needs */
+    text-align: center;
+    font-size: 2em; /* Adjust based on your needs */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect for better contrast */
+  }
+  
