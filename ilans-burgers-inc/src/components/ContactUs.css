@@ -2,6 +2,9 @@
     padding: 2em;
     background-color: #fff; /* Change color based on your needs */
     border-radius: 15px;
+    width: 100%;
+    max-width: 400px; /* Adjust this value as needed */
+    margin: 0 auto; /* This will center the section */
   }
   
   .contact-section h2 {
