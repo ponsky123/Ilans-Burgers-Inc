@@ -1,0 +1,39 @@
+.contact-section {
+    padding: 2em;
+    background-color: #fff; /* Change color based on your needs */
+    border-radius: 15px;
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .contact-section .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd; /* Change color based on your needs */
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    background-color: orange; /* Change color based on your needs */
+    color: #fff; /* Change color based on your needs */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

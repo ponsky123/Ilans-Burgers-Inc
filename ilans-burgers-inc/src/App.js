@@ -3,14 +3,16 @@ import MyNavbar from './components/Navbar';
 import Main from './components/Main';
 import Menu from './components/Menu';
 import Locations from './components/Locations';
+import ContactUs from './components/ContactUs';
 
-function App() {
+const App = () => {
   return (
     <div>
       <MyNavbar />
       <Main />
       <Menu />
       <Locations />
+      <ContactUs />
     </div>
   );
 }

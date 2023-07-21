@@ -1,20 +1,37 @@
 .locations-section {
     padding: 2em;
-    background-color: #fff; /* Change color based on your needs */
+    background-color: orange; /* Change color based on your needs */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .locations-section h2 {
     text-align: center;
     margin-bottom: 1em;
+    width: 100%; /* Make the title take up the full width */
+    color: white; /* Change color based on your needs */
   }
   
-  .locations-section ul {
-    list-style-type: none;
-    padding: 0;
+  .location {
+    margin-bottom: 2em;
+    flex: 1 0 200px; /* Grow, don't shrink, and start at a width of 200px */
+    margin: 1em;
+    text-align: center; /* Center the text within each location */
+    background-color: white; /* Make the card white */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a drop shadow */
+    border-radius: 5px; /* Round the corners */
   }
   
-  .locations-section ul li {
-    margin-bottom: 0.5em;
-    font-size: 1.2em; /* Adjust based on your needs */
+  .location h3 {
+    font-size: 0.8em; /* Make the font size smaller so it fits on one line */
+    margin: 0.5em;
+  }
+  
+  .location img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0; /* Round the top corners to match the card */
   }
   
