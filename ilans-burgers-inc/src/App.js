@@ -1,20 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Main from './Main';
-import Services from './Services';
-import About from './About';
-import Pricing from './Pricing';
-import Contact from './Contact';
+import MyNavbar from './components/Navbar';
+// import Main from './components/Main';
+
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <MyNavbar />
       {/* <Main /> */}
-      {/* <Services /> */}
-      {/* <About /> */}
-      {/* <Pricing /> */}
-      {/* <Contact /> */}
     </div>
   );
 }
